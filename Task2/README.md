@@ -15,3 +15,9 @@ It demonstrates routing, middleware, logging, filtering, and testing with Postma
 cd express-api
 npm install
 npm start
+
+###Django
+cd django-api
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
