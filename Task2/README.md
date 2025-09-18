@@ -16,7 +16,7 @@ cd express-api
 npm install
 npm start
 
-###Django
+### Django
 cd django-api
 pip install -r requirements.txt
 python manage.py migrate
