@@ -17,7 +17,7 @@ npm install
 npm start
 
 ### Django
-cd django-api
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+cd django-api 
+pip install -r requirements.txt 
+python manage.py migrate 
+python manage.py runserver 
