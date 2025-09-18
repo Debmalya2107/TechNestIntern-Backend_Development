@@ -44,21 +44,3 @@ This project was developed as part of my **TechNest Virtual Internship**.
 │ ├── routes/ # API routes
 │ └── utils/ # Helper functions
 └── server.js # Entry point
-
-## 🔑 API Endpoints
-
-### Authentication
-- `POST /api/auth/register` → Register a new user  
-- `POST /api/auth/login` → Login & receive JWT  
-- `GET /api/auth/me` → Get user profile  
-- `PUT /api/auth/profile` → Update profile  
-- `POST /api/auth/change-password` → Change password  
-
-### Posts
-- `GET /api/posts` → Get all posts  
-- `GET /api/posts/my` → Get my posts  
-- `GET /api/posts/:id` → Get single post  
-- `POST /api/posts` → Create new post *(Protected)*  
-- `PUT /api/posts/:id` → Update post *(Protected)*  
-- `DELETE /api/posts/:id` → Delete post *(Protected)*  
-- `GET /api/posts/tags/popular` → Get popular tags  
